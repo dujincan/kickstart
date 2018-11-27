@@ -27,7 +27,7 @@ EOF
 systemctl start dhcpd
 
 # configure tftp server
-cp -rf tftp-server /var/lib/
+cp -rf tftpboot /var/lib/
 systemctl start tftp.socket
 
 # mount cdrom
