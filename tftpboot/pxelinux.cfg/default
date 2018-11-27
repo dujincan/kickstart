@@ -1,4 +1,4 @@
-entos 7 kickstart
+# Centos 7 kickstart
 default ks
 timeout 50
 prompt 0
