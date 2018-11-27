@@ -10,7 +10,7 @@ wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
 yum makecache
 
 # install service
-yum install -y dhcp tftp-server syslinux httpd
+yum install -y dhcp tftp-server syslinux httpd pykickstart
 
 # configure dhcp
 cat >>/etc/dhcp/dhcpd.conf<<EOF
